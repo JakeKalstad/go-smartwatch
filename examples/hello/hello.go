@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/aykevl/go-smartwatch"
-	"github.com/conejoninja/tinyfont"
+	"tinygo.org/x/tinyfont"
 )
 
 var watch *smartwatch.Watch
