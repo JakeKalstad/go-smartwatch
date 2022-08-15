@@ -56,8 +56,9 @@ func Open() (*Watch, error) {
 		resetPin = machine.LCD_RESET
 		dcPin    = machine.LCD_RS
 		blPin    = machine.LCD_BACKLIGHT_MID
+		csPin    = machine.LCD_CS
 	)
-	screen := st7789.New(spi, resetPin, dcPin, blPin)
+	screen := st7789.New(spi, resetPin, dcPin, csPin, blPin)
 	watch = &Watch{
 		Device: &screen,
 	}
