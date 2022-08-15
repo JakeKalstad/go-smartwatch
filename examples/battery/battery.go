@@ -5,9 +5,9 @@ package main
 import (
 	"fmt"
 	"image/color"
+	"smartwatch"
 	"time"
 
-	"github.com/aykevl/go-smartwatch"
 	"tinygo.org/x/tinyfont"
 )
 

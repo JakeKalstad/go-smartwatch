@@ -1,9 +1,8 @@
-module go-smartwatch
+module smartwatch
 
 go 1.19
 
 require (
-	github.com/aykevl/go-smartwatch v0.0.0-20191106230747-e6e9277e0bb8
 	github.com/aykevl/tilegraphics v0.0.0-20191028092025-c4bb79f41363
 	tinygo.org/x/drivers v0.21.0
 	tinygo.org/x/tinyfont v0.3.0

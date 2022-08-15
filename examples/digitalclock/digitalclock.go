@@ -4,9 +4,8 @@ package main
 import (
 	"fmt"
 	"image/color"
+	"smartwatch"
 	"time"
-
-	"go-smartwatch"
 
 	"tinygo.org/x/tinyfont"
 	"tinygo.org/x/tinyfont/freemono"
