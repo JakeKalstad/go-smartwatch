@@ -49,8 +49,6 @@ func main() {
 
 		watch.Display()
 
-		//semihosting.Stdout.Write([]byte(msg + "\n"))
-
 		time.Sleep(time.Second * 10)
 	}
 }
